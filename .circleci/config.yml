@@ -1,0 +1,11 @@
+version: 2.1
+
+orbs:
+  vulnachecka: philipbox/vulnachecka@1.0.5
+
+workflows:
+  test:
+    jobs:
+    - vulnachecka/scan:
+        config_file_path:  "wss-unified-agent.config"
+        commands_file_path: "install-commands.sh"
