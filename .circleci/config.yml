@@ -8,4 +8,4 @@ workflows:
     jobs:
     - vulnachecka/scan:
         config_file_path:  "wss-unified-agent.config"
-        commands_file_path: "install-commands.sh"
+        commands_file_path: "install_commands.sh"
