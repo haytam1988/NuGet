@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  vulnachecka: philipbox/vulnachecka@1.0.5
+  vulnachecka: whitesource/whitesource-scan@19.11.1
 
 workflows:
   test:
