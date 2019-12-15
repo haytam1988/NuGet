@@ -9,7 +9,7 @@ namespace MiniCover.UnitTests.Utils
         [Fact]
         public void ShouldPatchDepsJson()
         {
-            var originalContenta = GetOriginalDepsJsonContent();
+            var originalContentaA = GetOriginalDepsJsonContent();
             var expectedResult = GetPatchedDepsJsonContent();
             var result = DepsJsonUtils.PatchDepsJsonContent(originalContent, "1.0.0");
             NormalizeLineEnding(result).Should().Be(NormalizeLineEnding(expectedResult));
