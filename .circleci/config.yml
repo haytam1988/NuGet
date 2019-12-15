@@ -1,11 +1,11 @@
 version: 2.1
 
 orbs:
-  vulnachecka: whitesource/whitesource-scan@1.0.6
+  vulnachecka: philipbox/vulnachecka@1.0.6
 
 workflows:
   test:
     jobs:
     - vulnachecka/scan:
-        config_file_path:  "wss-unified-agent.config"
+        config_file_path: "wss-unified-agent.config" 
         commands_file_path: "install_commands.sh"
