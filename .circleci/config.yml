@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  vulnachecka: philipbox/vulnachecka@1.0.3
+  vulnachecka: philiptest/wsstestorb@1.0.3
 
 workflows:
   test:
